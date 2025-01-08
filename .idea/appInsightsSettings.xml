@@ -8,10 +8,10 @@
             <InsightsFilterSettings>
               <option name="connection">
                 <ConnectionSetting>
-                  <option name="appId" value="PLACEHOLDER" />
-                  <option name="mobileSdkAppId" value="" />
-                  <option name="projectId" value="" />
-                  <option name="projectNumber" value="" />
+                  <option name="appId" value="com.example.smartwaste" />
+                  <option name="mobileSdkAppId" value="1:454388987808:android:131893aa0b3ce0f12b16c5" />
+                  <option name="projectId" value="papb-e9db8" />
+                  <option name="projectNumber" value="454388987808" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />

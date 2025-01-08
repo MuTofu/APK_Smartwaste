@@ -1,6 +1,8 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
+
+    id("com.google.gms.google-services")
 }
 
 android {
@@ -49,6 +51,7 @@ android {
     }
 }
 
+
 dependencies {
 
     implementation(libs.androidx.core.ktx)
@@ -72,4 +75,9 @@ dependencies {
     debugImplementation(libs.androidx.ui.test.manifest)
     implementation ("de.hdodenhof:circleimageview:3.1.0")
     implementation ("androidx.fragment:fragment-ktx:1.2.5")
+    implementation(platform("com.google.firebase:firebase-bom:33.7.0"))
+    implementation("com.google.firebase:firebase-analytics")
+    implementation("com.google.firebase:firebase-database")
+    implementation("com.google.firebase:firebase-auth")
+
 }

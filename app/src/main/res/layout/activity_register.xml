@@ -40,6 +40,7 @@
         android:textColorHint="#4d4d4d"
         android:textColor="@color/black"
         android:background="@drawable/edit_text_background"
+        android:id="@+id/ed_RegisterUsername"
         android:padding="12dp"
         android:layout_marginBottom="16dp"/>
 
@@ -48,6 +49,7 @@
         android:layout_height="48dp"
         android:textColorHint="#4d4d4d"
         android:textColor="@color/black"
+        android:id="@+id/ed_RegisterEmail"
         android:hint="Email"
         android:background="@drawable/edit_text_background"
         android:padding="12dp"
@@ -58,6 +60,7 @@
         android:layout_height="48dp"
         android:hint="Password"
         android:textColorHint="#4d4d4d"
+        android:id="@+id/ed_RegisterPassword"
         android:textColor="@color/black"
         android:background="@drawable/edit_text_background"
         android:padding="12dp"
@@ -71,6 +74,7 @@
         android:background="@drawable/edit_text_background"
         android:textColorHint="#4d4d4d"
         android:textColor="@color/black"
+        android:id="@+id/ed_RegisterReEnterPassword"
         android:padding="12dp"
         android:layout_marginBottom="16dp"
         android:inputType="textPassword"/>
@@ -86,7 +90,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:buttonTint="@color/black"
-            android:id="@+id/terms_checkbox"/>
+            android:id="@+id/chkbx_RegTermCon"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -103,6 +107,7 @@
         android:backgroundTint="#10B981"
         android:textColor="#FFFFFF"
         android:textStyle="bold"
+        android:id="@+id/btn_Register"
         android:layout_marginBottom="16dp"/>
 
     <TextView

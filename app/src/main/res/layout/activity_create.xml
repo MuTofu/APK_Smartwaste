@@ -48,6 +48,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/edit_text_background"
+                android:id="@+id/ed_JadwalAlamat"
                 android:hint="Masukkan Alamat"
                 android:textColorHint="#7C7C7C"
                 android:textColor="@color/black"

@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "454388987808",
+    "firebase_url": "https://papb-e9db8-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "papb-e9db8",
+    "storage_bucket": "papb-e9db8.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:454388987808:android:46d055b9dac77b792b16c5",
+        "android_client_info": {
+          "package_name": "com.example"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBucHccbyBQALJJJNXnIaBenrmmOKTH5qw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:454388987808:android:131893aa0b3ce0f12b16c5",
+        "android_client_info": {
+          "package_name": "com.example.smartwaste"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBucHccbyBQALJJJNXnIaBenrmmOKTH5qw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
